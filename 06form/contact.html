@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Leah McBride">
+    <meta name="description" content="Learn about Cupid's Bowl: A story of love, magical girls, and ice cream">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cupid.css">
+    <title>Cupid's Bowl: Synopsis</title>
+</head>
+
+<body>
+    <!-- start the page head -->
+    <header>
+        <span>Cupid's Bowl</span>
+    </header>
+
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Synopsis</a></li>
+            <li><a href="characters.html">Characters</a></li>
+            <li><a href="merch.html">Merch</a></li>
+            <li class="active"><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- start the main content -->
+    <main>
+        <h1>Contact Us</h1>
+        <form method="get" class="myForm" action="thanks.html">
+
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Last Name*<input type="text" name="lname" required></label>
+                <label>Email*<input type="email" name="email" required></label>
+                <label>Cell Number*<input type="tel" name="phone" required placeholder="987-555-1234"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Why are you contacting us today?</legend>
+                <label><input type="radio" name="reason" value="preorder">Merch Preorder/Request</label>
+                <label><input type="radio" name="reason" value="commission">Art Commission Request</label>
+                <label><input type="radio" name="reason" value="business">Business Inquiry</label>
+                <label><input type="radio" name="reason" value="other">Other</label>
+            </fieldset>
+           
+            <fieldset>
+                <legend>How would you like us to send our response?</legend>
+                <label><input type="checkbox" name="email" value="yes">Email</label>
+                 <label><input type="checkbox" name="text" value="yes">Text</label>
+                 <label><input type="checkbox" name="call" value="yes">Call</label>
+                 <label><input type="checkbox" name="mail" value="yes">Send to mail/PO box</label>
+
+                 <label>How soon do you need a response?
+                 <select name="time">
+                    <option value="none">Please Select</option>
+                    <option value="asap">As soon as possible</option>
+                    <option value="days">Within the next few days</option>
+                    <option value="week">Within the next week</option>
+                    <option value="slow">There's no rush</option>
+                 </select>
+                 </label>
+            </fieldset>
+
+            <label>Your Message*
+                <textarea name="message" required placeholder="Please type your message in here"></textarea>
+            </label>
+            
+            
+            
+            <input type="submit" value="Send Message">
+        </form>
+
+    </main>
+
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy; 2026 &bull; Leah McBride &bull; Web Essentials</p>
+    </footer>
+
+</body>
+
+</html>
