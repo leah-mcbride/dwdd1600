@@ -270,3 +270,7 @@ footer p {
     margin: 0;
     letter-spacing: 2px;
 }
+header, nav, main, footer {
+    max-width: 64rem;
+    margin: 0 auto;
+}
